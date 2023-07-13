@@ -88,3 +88,17 @@ header{
     scale: 0.95;
 }
 
+
+/* Responsive design */
+
+@media (max-width:990px) {
+    .navbar .links,
+    .navbar .action-btn{
+        display: none;
+    }
+
+    .navbar .toggle_btn{
+        display: block;
+    }
+    
+}
