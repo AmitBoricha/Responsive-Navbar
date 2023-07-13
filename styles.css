@@ -67,5 +67,24 @@ header{
 .navbar .toggle_btn{
     color: #fff;
     font-size: 1.5rem;
-    
+    cursor: pointer;
+    display: none;
 }
+
+.action-btn{
+    background-color: orange;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: scale 0.2 ease;
+}
+
+.action-btn:active{
+    scale: 0.95;
+}
+
